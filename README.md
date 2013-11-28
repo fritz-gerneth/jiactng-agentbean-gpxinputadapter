@@ -2,6 +2,8 @@ jiactng-agentbean-gpxinputadapter
 =================================
 This JIAC V agent bean accepts incoming connections to read GPX information and saves them into the memory.
 
+As Null is evil, all arguments are mandantory, not nullable and all methods will never return null. Consider an implicit @NotNull annotation on every parameter and method.
+
 A sample configuration could be
 ```xml
 <!-- Simple factories to avoid creation in beans -->
