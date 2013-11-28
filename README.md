@@ -4,6 +4,15 @@ This JIAC V agent bean accepts incoming connections to read GPX information and 
 
 As Null is evil, all arguments are mandantory, not nullable and all methods will never return null. Consider an implicit @NotNull annotation on every parameter and method.
 
+This artifact is available in my developer repository:
+```xml
+<repository>
+    <id>de.effms.dev.repository</id>
+    <name>Developer Repository</name>
+    <url>https://github.com/fritz-gerneth/dev-maven-repo/raw/master/</url>
+</repository>
+```
+
 A sample configuration could be
 ```xml
 <!-- Simple factories to avoid creation in beans -->
